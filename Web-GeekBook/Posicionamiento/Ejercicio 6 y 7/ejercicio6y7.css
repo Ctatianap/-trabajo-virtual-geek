@@ -1,0 +1,22 @@
+/* Ejercicio 6 Aviso cookies y 7 */
+
+.header{
+    display: flex;
+    justify-content: center;
+
+}
+.seis{
+    height: 100px;
+    background-color: yellow;
+    position: fixed;
+    bottom: 0px;
+    margin: auto;
+}
+
+.contenedor{ /* Este texto necesita aire*/
+    background-color: rgb(213, 209, 218);
+    max-width: 600px;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin: auto;
+}

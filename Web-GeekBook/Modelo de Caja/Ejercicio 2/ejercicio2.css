@@ -1,0 +1,25 @@
+/*.none{
+    display: inline;
+    background-color: aqua;
+}*/ /* Se comporta como 3 lineas ubicadas verticalmente */
+
+.none{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+}*/ /* Se comporta como 3 bloques solidos de 100 x 100 ubicados horizontalmente */
+
+/*.none{
+    display: none;
+    height: 100px;
+    width: 100px;
+
+}*/ /*Desaparece completamente*/
+
+/* .none{
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}*/ /* Se comporta como 3 bloques solidos de 100 x 100 ubicados verticalmente */

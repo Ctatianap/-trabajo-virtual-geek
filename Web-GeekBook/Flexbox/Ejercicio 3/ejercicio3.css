@@ -1,0 +1,12 @@
+
+
+.contenedor{
+    background-color: blanchedalmond;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}

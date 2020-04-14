@@ -1,0 +1,25 @@
+.item{
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    padding: 30px;
+    position: relative;
+}
+
+.uno{
+    background-color:rgb(117, 26, 113);
+    top: 50px;
+    left: 100px;
+}
+
+.dos{
+    background-color: rgb(148, 206, 188);
+    right: 150px;
+    bottom: 320px;
+}
+
+.tres{
+    background-color: rgb(141, 65, 128);
+    left: 180px;
+    bottom: 240px;
+}

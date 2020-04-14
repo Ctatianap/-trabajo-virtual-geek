@@ -1,0 +1,24 @@
+html{
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.descarga{
+    color: gray;
+    font-size: 20px;
+    font-family: helvetica;
+    padding: 2px;
+    position: relative;
+    
+
+}
+
+.badge{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    padding: 2px;
+}

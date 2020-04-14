@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    background-color: violet;
+    width: 500px;
+    height: 500px;
+    flex-direction: row;
+   
+}
+
+.item{
+    background-color: pink;
+    border: 2px;
+    margin: 5px;
+    color: rgb(15, 172, 211);
+    font-size: 20px;
+
+}
+
+/*El eje principal es horizontal*/

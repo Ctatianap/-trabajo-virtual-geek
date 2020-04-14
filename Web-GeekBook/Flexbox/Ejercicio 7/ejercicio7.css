@@ -1,0 +1,106 @@
+/*Ejercicio Flexbox 7 */
+
+body, html{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 840px;
+    margin: 0;
+    
+}
+.item{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.columnaUno, .columnaTres{
+    display: flex;
+    flex-basis: 10%;
+    flex-direction: row;
+   
+}
+img{
+    height: 100%;
+    max-height: 100px;
+    border-radius: 15px;
+    border: solid gray 2px;
+}
+
+
+.columnaDos{
+    
+    display: flex;
+    flex-basis: 80%;
+    flex-direction: column;
+    justify-content:space-between;
+    margin: 0;
+    
+}
+p{
+    margin: 0;
+}
+.filas{
+    margin-top: 20px;
+}
+.filaUno{
+    display: flex;
+    color: rgb(65, 65, 65);
+    font-family: tahoma;
+    padding-left: 10px;
+       
+}
+.filaDos{
+    display: flex;
+    color: gray;
+    font-family: tahoma;
+    padding-left: 10px;
+
+    
+}
+.filaTres{
+    display: flex;
+    align-items: flex-end;
+    padding-left: 10px;
+
+}
+
+.botonUno{
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    font-family: tahoma;
+    border:solid gray 2px;
+   
+}
+
+.botonDos{
+    background-color: white;
+    border-radius: 5px;
+    color: gray;
+    font-family: tahoma;
+    border:solid gray 2px;
+    margin-left:  5%;
+   
+}
+.parteUno, .parteDos{
+    display: flex;
+    flex-direction: column;
+    color: rgb(65, 65, 65);
+    font-family: tahoma;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-top: 5px;
+    align-items: center;
+}
+.badge {
+    color:white;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+

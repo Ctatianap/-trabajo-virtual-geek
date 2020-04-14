@@ -1,0 +1,51 @@
+/*Ejercicio 6 Flexbox*/
+
+body, html{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    margin: 0;
+    
+    
+}
+
+.cabeza{
+    display: flex;
+    background-color: rgb(65, 19, 65);
+    color: white;
+    justify-content: center;
+
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    
+
+}
+.asideUno, .asideDos{
+    display: flex;
+    background-color: rgb(74, 207, 207);
+    justify-content: center;
+    flex-basis: 25%;
+    padding: 20px;
+}
+.article{
+    background-color: rgb(138, 196, 193);
+    display: flex;
+    flex-basis: 50%;
+    padding: 20px;
+    flex-grow: 2;
+
+}
+.pie{
+    display: flex;
+    background-color: rgb(87, 0, 58);
+    min-height: 5vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+
+}

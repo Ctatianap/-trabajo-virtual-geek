@@ -1,0 +1,32 @@
+.contenedor{
+    background-color: blanchedalmond;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.Ejercicio4{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+
+}
+.items, .uno, .dos,.tres, .cuatro{
+    width: 48%;
+    background-color: bisque;
+    padding: 1%;
+    
+
+
+}
+
+.cinco{
+    order: -1;
+    width: 100vw;
+    justify-self: center;
+}
+

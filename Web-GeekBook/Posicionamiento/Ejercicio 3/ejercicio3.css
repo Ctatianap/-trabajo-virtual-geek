@@ -1,0 +1,11 @@
+.header{
+    background-color: purple;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.contenedor{
+    position: relative;
+    top: 80px;

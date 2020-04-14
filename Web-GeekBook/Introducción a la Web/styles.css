@@ -1,0 +1,21 @@
+
+h1{
+    color: rgba(21, 119, 126, 0.473);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: #f3f4f5;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h2{
+    font-family: Arial;
+    font-size: 24px;
+    color: black;
+}
+p, ul, ol {
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575;
+}
