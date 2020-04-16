@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(224, 224, 224);
+    font-family: Georgia;
+    
+  }
+
+#title{
+    margin-top: 5%;
+    text-align: center;
+
+}  
+
+#img-div{
+    background-color: rgb(22, 22, 22);
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+#image{
+    display:block;
+    width: 100%;
+    max-width: 1400px;
+    margin:auto;
+  
+}
+
+#main .p1{
+    text-align: center;
+}
+
+#main{
+    padding: 5%;
+    text-align: justify;
+    line-height: 2em;
+    
+}
+
+#main h2{
+    text-align: center;
+}
+#main small{
+    text-align: center;
+}
+#main p{
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+ul{
+    margin: auto;
+    max-width: 800px;
+    margin-bottom:5%
+    
+}
+footer{
+    margin: auto;
+    text-align: center;
+}
