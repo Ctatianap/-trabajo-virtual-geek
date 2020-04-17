@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+    <main id="main">
+        <header>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Formulario para el segundo reto de FreeCodeCamp</p>
+        </header>   
+    
+    <form id="survey-form">
+
+        <div class="row">
+            <label id="name-label">Nombre</label>
+            <input class="field" id="name" type="text" placeholder="Ingresa tu nombre" name="name" required>
+        </div>
+        <div class="row">
+            <label id="email-label">E-mail</label>
+            <input class="field" id="email" type="email" placeholder="Ingresa tu Email" name="email" required>
+        </div>
+        <div class="row">
+            <label id="number-label">Edad (opcional)</label>
+            <input class="field" id="number" type="number" placeholder="Edad" name="age" min="10" max="90">
+        </div>
+        <div class="row">
+            <label id="dropdown-label">¿Qué opción describe mejor tu rol actual?</label>
+    
+            <select id="dropdown" name="select">
+                <option>Estudiante</option>
+                <option>Empleado a medio tiempo</option>
+                <option>Empleado a tiempo complet</option>
+                <option>Desempleado</option>
+                <option>Freelancer</option>
+                <option>Otro</option>
+            </select>
+        </div>
+        <div class="row">
+            <label>Genero</label>
+            <input id="male" type="radio" name="genero" value="Masculino">
+            <label>Masculino</label>
+            <input id="female" type="radio" name="genero" value="Femenino">
+            <label>Femenino</label>
+            <input id="other" type="radio" name="genero" value="Otro">
+            <label>Otro</label>
+        </div>
+        <div class="row">
+            <label>Selecciona una opción</label>
+            <input id="cbox1" type="checkbox" name="option" value="first-checkbox">
+            <label>opción 1</label>
+            <input id="cbox2" type="checkbox" name="option" value="second-checkbox">
+            <label>opción 2</label>
+            <input id="cbox3" type="checkbox" name="option" value="three-checkbox">
+            <label>opción 3</label>
+        </div>
+        <div class="row">
+            <label>Comentarios</label>
+            <textarea class="field" id="textarea" placeholder="Ingresa tus comentarios aquí"></textarea>
+        </div>
+        <div class="row">
+            <button id="submit"> Enviar </button>
+        </div>
+        
+
+    </form>
+
+
+    <footer><i>Copyright ©2020 | Elaboración de Tatiana Pabón |</i> </footer>
+</main>
+</body>
+
+</html>
