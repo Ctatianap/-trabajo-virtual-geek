@@ -1,0 +1,213 @@
+body{
+    /*background-image: url("http://www.fwallpaper.net/wallpapers/L/E/League-of-Legends-Game-2_1920x1080.jpg");*/
+    background-image: url("https://cl.buscafs.com/www.levelup.com/public/uploads/images/457047.jpg");
+    background-repeat: no-repeat;
+    background-color:  rgb(1, 7, 24);
+    font-family: Georgia;
+    font-size: 1vw;
+    
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    margin: auto;
+    max-width: 900px;
+    width: 100%;
+}
+
+#logo{
+    margin: 10px 0 0 10px;
+    width: 20%;
+    float: left;
+}
+#header-img{
+    width: auto;
+    height: 50px;
+    margin: 0;
+
+}
+
+#nav-bar{
+    width: 100%;
+    max-width: 900px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: solid 2px rgb(224, 165, 0);
+    border-radius: 15px;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    width: 80%;
+    margin: 0;
+}
+li a{
+    text-decoration: none;
+    color:rgb(224, 165, 0) ;
+}
+
+#main{
+    background: linear-gradient(0deg, rgb(1, 7, 24), rgb(1, 7, 24), rgba(182, 182, 182,0.7), rgba(182, 182, 182,0.5));
+    margin: auto;
+    max-width: 800px;
+    border-radius: 15px;
+    margin-top: 5%;
+}
+
+#history h4{
+    display: block;
+    color:  rgb(114, 12, 161);
+    text-align: center;
+}
+#history{
+    max-height: 500px;
+    overflow: auto;
+    padding:5% 10% 2% 10%;
+    margin: auto;
+    text-align: justify;
+    color: rgb(24, 3, 51);
+}
+#history h2{
+    color: rgb(233, 229, 218);
+    text-align: center;
+}
+
+#history::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+#history::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+#history::-webkit-scrollbar-button:increment,#history::-webkit-scrollbar-button {
+    display: none;
+} 
+
+#history::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+#history::-webkit-scrollbar-thumb {
+    background-color: #4b1066;
+    border-radius: 20px;
+    border: 2px solid #bdbdbd;
+}
+
+#history::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+
+
+#video{
+    display: flex;
+    margin: 10%  auto 10%;
+    border-radius: 15px;
+    border: solid 2px  rgb(224, 165, 0);
+   
+}
+
+#guardianas h2{
+    color: rgb(233, 229, 218);
+    text-align: center;
+
+}
+#guardianas{
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: rgb(233, 229, 218);
+    text-align: justify;
+
+}
+#guardianas a{
+    color: rgb(224, 165, 0);
+    text-decoration: none;
+
+}
+#guardianas figure {
+    max-width: 80%;
+    margin: auto;
+}
+#guardianas figure img{
+    width: 100%;
+    border-radius: 15px;
+    border: solid 2px  rgb(224, 165, 0);
+    
+}
+
+
+.row{
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    color: rgb(224, 165, 0);
+    text-align: center;
+    font-size: 2vw;
+    
+}
+.field{
+    width: 80%;
+    height: 2%;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+button{
+    width: 20%;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(45, 83, 109);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: rgb(98, 56, 102);
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+footer{
+    color: rgb(231, 216, 250);
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+    
+}
+footer a{
+    text-decoration: none;
+    color: rgb(224, 165, 0);
+    
+}
+hr{
+    border-radius: 50%;
+    background-color: rgb(224, 165, 0);
+    
+}
+
+
+@media (min-width: 1900px){
+    body{
+       background-image: none;
+  
+    }
+   }
+
+  
+   
