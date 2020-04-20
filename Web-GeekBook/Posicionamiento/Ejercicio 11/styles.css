@@ -1,0 +1,19 @@
+body{
+    border:solid 8px black;
+    margin: 0;  
+    padding: 5%;
+    text-align: justify;
+    color: gray;
+}
+.aviso{
+    height: 50px;
+    background-color: yellow;
+    position: fixed;
+    right: 8px;
+    bottom: 8px;
+    margin: auto;
+    color: black;
+}
+footer{
+    text-align: center;
+}
