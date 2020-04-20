@@ -38,7 +38,7 @@ body{
     background-color: rgba(0, 0, 0, 0.9);
     border: solid 2px rgb(224, 165, 0);
     border-radius: 15px;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     
 }
 
@@ -155,16 +155,17 @@ li a{
     margin-bottom: 10px;
     color: rgb(224, 165, 0);
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.1vw;
     
 }
 .field{
-    width: 80%;
-    height: 2%;
+    width: 60%;
+    height: 30px;
     margin-top: 20px;
     border-radius: 5px;
     text-align: center;
-
+    border: none;
+   
 }
 
 button{
@@ -176,13 +177,22 @@ button{
     font-weight: 400;
     text-transform: uppercase;
     cursor: pointer;
+    border: none;
     
 }
 button:hover{
     background-color: rgb(98, 56, 102);
     color: rgb(255, 255, 255);
+    box-shadow:  3px 5px 5px 0px rgba(45,83,109,0.75);
     
     
+}
+hr {
+    height: 2px;
+    border: 0;
+    color: #666;
+    background-color: rgb(224, 165, 0);
+    border-radius: 50%;
 }
 
 footer{
@@ -198,11 +208,8 @@ footer a{
     color: rgb(224, 165, 0);
     
 }
-hr{
-    border-radius: 50%;
-    background-color: rgb(224, 165, 0);
-    
-}
+
+
 
 
 @media (min-width: 1900px){
