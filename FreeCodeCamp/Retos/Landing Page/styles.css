@@ -38,6 +38,7 @@ body{
     background-color: rgba(0, 0, 0, 0.9);
     border: solid 2px rgb(224, 165, 0);
     border-radius: 15px;
+    font-size: 1.5vw;
     
 }
 
@@ -139,6 +140,7 @@ li a{
 #guardianas figure {
     max-width: 80%;
     margin: auto;
+    margin-bottom: 5%;
 }
 #guardianas figure img{
     width: 100%;
@@ -188,6 +190,7 @@ footer{
     margin: auto;
     max-width: 900px;
     text-align: center;
+    margin-top: 5%;
     
 }
 footer a{
