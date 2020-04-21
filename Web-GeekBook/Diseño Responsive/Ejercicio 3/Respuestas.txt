@@ -1,0 +1,4 @@
+¿Qué pasa si duplico el párrafo de texto?
+ -Agrega el nuevo parrafo debajo del anterior
+¿Y si duplico otra vez?
+-Agrega el nuevo parrafo debajo del anterior y agrega un scroll 

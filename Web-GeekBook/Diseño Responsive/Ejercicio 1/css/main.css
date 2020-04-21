@@ -1,0 +1,26 @@
+html {
+    font-size: 32px;
+  }
+  .smiley {
+    width: 6.25rem;
+    height: 6.25rem;
+    line-height: 6.25rem;
+    text-align: center;
+    font-family: 'courier new';
+    font-weight: bold;
+    font-size: 50px;
+    color: #424242;
+    background: #ffcc00;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
+
+  /*para que la carita mida 100px son 6.25rem 
+    para que mida 50x50 debo poner un tamaño de fuente de 8px
+    y para que mida 200x200 debo porner un tamaño de fuente de 32px
+
+    https://offroadcode.com/rem-calculator/ */
+  
