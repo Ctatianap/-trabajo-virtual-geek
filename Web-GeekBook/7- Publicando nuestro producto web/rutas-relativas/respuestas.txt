@@ -1,0 +1,7 @@
+¿Cómo es la ruta de ambas imágenes? ¿Absoluta? ¿Relativa? ¿Es diferente en los dos casos? ¿Por qué?
+
+R// las rutas son:
+  		para el div:    ../images/imagen-de-prueba.jpg
+		para el index:  ./image/imagen-de-prueba.jpg
+
+Ambas son rutas relativas porque estoy usando los caracteres ./ y ../ para poderles indicarde el lugar donde me encuentro parado en este momento. 

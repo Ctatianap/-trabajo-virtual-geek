@@ -1,0 +1,7 @@
+
+.imagen-fondo{
+   width: 100%;
+   height: 100%;
+   background-image:url("../images/imagen-de-prueba.jpg");
+   background-repeat: no-repeat;
+}
