@@ -1,0 +1,7 @@
+¿Qué licencia hemos elegido?
+
+None
+
+¿Por qué es importante añadir un README.md?
+
+Para informar sobre el contenido del repositorio.
