@@ -34,13 +34,26 @@ body{
     max-width: 900px;
     position: fixed;
     display: flex;
+    font-size: 1.3vw;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.9);
-    border: solid 2px rgb(224, 165, 0);
-    border-radius: 15px;
-    font-size: 1.3vw;
+    
     
 }
+
+.border-Dorado{
+    border: solid 3px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(45deg, #8d6715, #e7d360, #795005, #fad91f, #795005);
+
+}
+.border-Rosa{
+    border: solid 3px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(45deg, #743ad5, #d53a9d);
+
+}
+
 
 ul {
     display: flex;
@@ -109,14 +122,30 @@ li a{
     border-radius: 10px;  
 }
 
-
-
+#section-video{
+    max-width: 600px;
+    margin: auto;
+}
+#div-video{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    
+}
+#div-video iframe, #div-video object, #div-video embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    height: 80%;
+    
+}
 #video{
     display: flex;
     margin: 10%  auto 10%;
-    border-radius: 15px;
-    border: solid 2px  rgb(224, 165, 0);
-   
 }
 
 #guardianas h2{
@@ -144,9 +173,12 @@ li a{
 }
 #guardianas figure img{
     width: 100%;
-    border-radius: 15px;
-    border: solid 2px  rgb(224, 165, 0);
     
+    
+}
+#guardianas p{
+    margin-bottom: 2vh;
+
 }
 
 
