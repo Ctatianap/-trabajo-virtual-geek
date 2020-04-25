@@ -1,17 +1,27 @@
 body{
-    /*background-image: url("http://www.fwallpaper.net/wallpapers/L/E/League-of-Legends-Game-2_1920x1080.jpg");*/
-    background-image: url("https://cl.buscafs.com/www.levelup.com/public/uploads/images/457047.jpg");
-    background-repeat: no-repeat;
-    background-color:  rgb(1, 7, 24);
+    /* background-image: url("https://cl.buscafs.com/www.levelup.com/public/uploads/images/457047.jpg");
+    background-repeat: no-repeat; */
+    background-color:  rgb(46, 33, 49);
     font-family: Georgia;
-    font-size: 1vw;
+    font-size: 16px
+    z-index: -4;
     
 }
+#img-bg{
+    position: fixed;
+    z-index: -3;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url("https://cl.buscafs.com/www.levelup.com/public/uploads/images/457047.jpg");
+    background-repeat: no-repeat;
 
+}
 #header{
     display: flex;
     flex-direction: row;
-    height: 70px;
+    height: 5em;
     margin: auto;
     max-width: 900px;
     width: 100%;
@@ -34,11 +44,11 @@ body{
     max-width: 900px;
     position: fixed;
     display: flex;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.9);
-    
-    
+    z-index: 3;
+
 }
 
 .border-Dorado{
@@ -71,11 +81,12 @@ li a{
 }
 
 #main{
-    background: linear-gradient(0deg, rgb(1, 7, 24), rgb(1, 7, 24), rgba(182, 182, 182,0.7), rgba(182, 182, 182,0.5));
+    background: linear-gradient(0deg, rgb(46, 33, 49), rgba(182, 182, 182,0.7), rgba(182, 182, 182,0.5));
     margin: auto;
     max-width: 800px;
     border-radius: 15px;
     margin-top: 5%;
+    padding: 5%;
 }
 
 #history h4{
@@ -125,6 +136,7 @@ li a{
 #section-video{
     max-width: 600px;
     margin: auto;
+    
 }
 #div-video{
     position: relative;
@@ -162,12 +174,12 @@ li a{
 
 }
 #guardianas a{
-    color: rgb(224, 165, 0);
+    color: rgb(114, 12, 161);
     text-decoration: none;
 
 }
 #guardianas figure {
-    max-width: 80%;
+    max-width: 75%;
     margin: auto;
     margin-bottom: 5%;
 }
@@ -181,18 +193,24 @@ li a{
 
 }
 
-
+#section-form{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 68%;
+    margin: auto;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+}
 .row{
-    margin-top: 10px ;
-    margin-bottom: 10px;
-    color: rgb(224, 165, 0);
+    margin-top: 1em ;
+    margin-bottom: 1em;
+    color: rgb(202, 202, 202);
     text-align: center;
     font-size: 1.1vw;
     
 }
 .field{
     width: 60%;
-    height: 30px;
+    height: 2em;
     margin-top: 20px;
     border-radius: 5px;
     text-align: center;
@@ -201,21 +219,23 @@ li a{
 }
 
 button{
-    width: 20%;
-    height: 25px;
+    width: 40%;
+    margin-top: 2%;
+    height: 2em;
     border-radius: 5px;
-    background-color: rgb(45, 83, 109);
+    background:linear-gradient(45deg, #df83bd , #9770da);
     color: rgb(255, 255, 255);
-    font-weight: 400;
     text-transform: uppercase;
     cursor: pointer;
     border: none;
     
+    
 }
 button:hover{
-    background-color: rgb(98, 56, 102);
+    
+    background:linear-gradient(45deg, #743ad5, #d53a9d);
     color: rgb(255, 255, 255);
-    box-shadow:  3px 5px 5px 0px rgba(45,83,109,0.75);
+    box-shadow:  3px 5px 5px 0px rgba(255, 208, 105, 0.3);
     
     
 }
@@ -245,7 +265,7 @@ footer a{
 
 
 @media (min-width: 1900px){
-    body{
+    #img-bg{
        background-image: none;
   
     }
