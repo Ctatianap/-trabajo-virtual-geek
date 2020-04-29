@@ -38,4 +38,8 @@ nav .links{
     font-size: $font-a;
     color: $colorFont;
   }
+  a:hover {
+    font-size: 1.7em;
+    color: $bgDecorationBlue;
+  }
 }

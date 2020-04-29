@@ -58,4 +58,9 @@ nav .links a {
   font-size: 1.5em;
   color: #D9D7CC;
 }
+
+nav .links a:hover {
+  font-size: 1.7em;
+  color: #0b2240;
+}
 /*# sourceMappingURL=nav.css.map */
