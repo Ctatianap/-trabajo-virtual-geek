@@ -1,0 +1,81 @@
+html{
+    height: 100%;
+    background: linear-gradient(180deg,#ffffff,#b3bfe2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#formCreate{
+    max-width: 400px;
+    margin-left: 20px;
+
+}
+
+div{
+    width: 100%;
+    margin: 5px 0 10px 0;
+
+}
+
+input{
+    border: solid 1px #9caee4;
+    border-radius: 5px;
+    height: 1.5em;
+    padding-left: 5px;
+    margin-left: 0;
+    
+}
+#firstName, #lastName{
+    width: 47%;
+}
+#email,#emailConfirmation, #password, #tall{
+    display:block;
+    margin: 0;
+    width: 97%;
+
+}
+#selects{
+    width: 60%;
+    margin: 0;
+    float: left;
+
+}
+#pSelect{
+    display: block;
+    line-height: 0.7em;
+    
+    
+    
+}
+.clearfix{
+    overflow: auto;
+}
+select{
+    padding-left: 5px;
+    height: 2em;
+    margin: 5px 0 0 0;
+   
+}
+
+a{
+    text-decoration: none;
+    font-size: 10px;
+    color: #13264d;
+}
+.p{
+    color: gray;
+    font-size: 10px;
+}
+
+textarea{
+    margin-top: 10px;
+}
+#createButom{
+    height: 2.5em;
+    background:#5f9b4c;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    padding: 0 30px 0 30px;
+
+
+}

@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+#welcome-section {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.titleWelcome {
+  max-width: 500px;
+  margin: 25vh auto;
+  font-family: "Roboto", sans-serif;
+  color: #D9D7CC;
+}
+
+.titleWelcome h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.titleWelcome #myName {
+  font-size: 5em;
+  color: #D9D7CC;
+  font-family: "Great Vibes", cursive;
+  margin: 1.5vh 0 0 0;
+  text-align: right;
+}
+
+.titleWelcome p {
+  font-size: 1.3em;
+  font-family: "Roboto", sans-serif;
+  margin: 1vh 0 0 0;
+  font-weight: 300;
+}
+
+.skewed {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #F2A444;
+  z-index: -3;
+  -webkit-transform: skewY(3deg);
+          transform: skewY(3deg);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.skewedTwo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  background: #0B2240;
+  z-index: -2;
+  -webkit-transform: skewY(-3deg);
+          transform: skewY(-3deg);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+/*# sourceMappingURL=welcome.css.map */

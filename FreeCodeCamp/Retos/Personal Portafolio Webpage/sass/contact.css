@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #D9D7CC;
+  font-family: "Roboto", sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact h2 {
+  font-size: 2em;
+  margin: 0;
+  margin-top: 10vh;
+}
+
+.contact p {
+  margin: 0;
+  font-weight: 300;
+}
+
+.contact div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact div a {
+  margin-top: 10vh;
+  text-decoration: none;
+  color: #D9D7CC;
+  padding: 2vw;
+  font-size: 1.2em;
+  font-weight: 300;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.containerSkewed {
+  position: relative;
+  bottom: 0;
+  height: 60vh;
+  margin-top: 10vh;
+}
+
+.skewedThree {
+  position: absolute;
+  top: 0vw;
+  width: 100%;
+  height: 50vh;
+  background: #F2A444;
+  z-index: -3;
+  -webkit-transform: skewY(5deg);
+          transform: skewY(5deg);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.skewedThree2 {
+  position: absolute;
+  left: 0;
+  top: 0vw;
+  bottom: 0;
+  width: 100%;
+  height: 50vh;
+  margin-top: 15vh;
+  background: #0B2240;
+  z-index: -3;
+  -webkit-transform: skewY(-5deg);
+          transform: skewY(-5deg);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+/*# sourceMappingURL=contact.css.map */

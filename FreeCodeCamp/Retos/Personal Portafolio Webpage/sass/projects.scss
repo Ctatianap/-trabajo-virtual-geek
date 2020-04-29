@@ -1,0 +1,54 @@
+@import "variables";
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    padding-bottom: 10vw;
+    z-index: 0;
+    
+    h2 {
+        color: $colorFont2;
+        font-size: 2em;
+        font-family: $font-page;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+}
+.containers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.containers .contenedorImgs{
+    width: $widthImg;
+    text-align: center;
+    padding: 1vw;
+    z-index: 1;
+    background-color:$bgProjects;
+    margin: 0.5vw 2vw;
+    margin-bottom: 5vh;
+  
+    img{
+      width: 100%;
+    }
+    a{
+        text-decoration: none;
+        color: $colorFont;
+        font-size: 1.3em;
+        cursor: pointer;
+    }
+  }
+
+  .contenedorImgs:hover{
+      background-color: $bgDecoration;
+      a{
+
+          color: $bgDecorationBlue;
+      }
+    
+  }

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="stylessFlag.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div id="formCreate">
+            
+            <form action="" method="post">
+
+                <fieldset>
+                    <legend>Nombre</legend>
+                    <input placeholder="Nombre" id="firstName" type="text" name="firstName" required>
+                    <input placeholder="Apellido" id="lastName" type="text" name="lastName" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Nombre de usuario</legend>
+                    <input placeholder="@gmail.com" type="text" id="email" name="email" required>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Contraseña</legend>
+                    <input type="password" id="password" name="password" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Confirma tu contraseña</legend>
+                    <input type="password" id="passwordConfirmation" name="passwordConfirmation" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Fecha de nacimiento</legend>
+                    <input placeholder="Día" type="number" min="1" max="30" id="dayBirth" name="dayBirth" required>
+                    <select name="month" id="month" required>
+                        <option >Mes</option>
+                        <option value="1">Enero</option>
+                        <option value="2">Febrero</option>
+                        <option value="3">Marzo</option>
+                        <option value="4">Abril</option>
+                        <option value="5">Mayo</option>
+                        <option value="6">Junio</option>
+                        <option value="7">Julio</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Septiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Deciembre</option>
+                    </select>
+                    <input placeholder="Año" type="number" min="1950" max="2020" id="yearBirth" name="yearBirth" required>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <select name="gender" id="gender" >
+                        <option >Selecciona tu género</option>
+                        <option value="Male">Masculino</option>
+                        <option value="Female">Femenino</option>
+                    </select>    
+                </fieldset>
+                <fieldset>
+                    <div name="changeFlag" onchange="changeFlag()" id="changeFlag" onclick="showFlags()">
+                        <ul id="ul">
+                            <li><i class="colombia flag"></i></li>
+                            <li><i class="france flag"></i></li>
+                            <li><i class="myanmar flag"></i></li>
+                            <li><i class="ae flag"></i></li>
+                            <li><i class="egypt flag"></i></li>
+                            <li><i class="brazil flag"></i></li>
+                        </ul>
+                                            
+                    </div>
+                    <input type="tel" id="phone" name="phone" required>
+
+                </fieldset>
+                <fieldset>
+                   <legend>Tu dirección de correo actual</legend>
+                <input type="text" id="email" name="email" required>
+               </fieldset>  
+               <fieldset>
+                   <legend>Ubicación</legend>
+                   <select name="country" id="country">
+                       <option value="">Colombia</option>
+                       <option value="">Ecuador</option>
+                       <option value="">Panamá</option>
+                       <option value="">Brasil</option>
+                   </select>
+               </fieldset>   
+
+                
+                <input type="submit" id="createButom" value="Siguiente paso">
+                
+
+            </form>
+        </div>
+    </main>
+    <script src="ejercicio5.js"></script>
+</body>
+
+</html>
