@@ -303,6 +303,7 @@ nav .links a {
 
 body {
   margin: 0;
+  margin-bottom: 0;
   font-size: 16px;
 }
 
@@ -317,6 +318,9 @@ main {
 }
 
 #footer {
+  background-color: #0b2240;
+  height: 3.5em;
+  margin-bottom: 0;
   color: #f2a444;
   text-align: center;
 }
