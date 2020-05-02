@@ -1,0 +1,22 @@
+.ventana{
+    width: 30vw;
+    height: 20vh;
+    position: fixed;
+    left: 35vw;
+    bottom: -20vh;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(7, 133, 155);
+    font-size: 30px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    transition: bottom ease 2s;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+body:hover .ventana{
+    bottom: 50vh;
+}

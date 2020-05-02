@@ -1,0 +1,25 @@
+
+body{
+    margin: 0;
+}
+
+.ventana{
+    width: 100vw;
+    height: 100vh;
+    background: url("bg.jpg");
+    text-align: center;
+}
+h1{
+    top: 0;
+    color: white;
+    font-size: 2em;
+    margin: 0;
+    position: absolute;
+    top: -20vh;
+    left: 35vw;
+    transition: top ease 3s;
+}
+
+.ventana:hover h1{
+    top: 50vh;
+}
