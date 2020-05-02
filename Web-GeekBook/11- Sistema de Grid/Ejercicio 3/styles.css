@@ -1,0 +1,35 @@
+
+#contenedor{
+    display: grid;
+    grid-template-columns: repeat (12, 1fr);
+    grid-template-rows: 20% 1fr 20%;
+    height: 100vh;  
+    grid-gap: 5px 5px;
+    text-align: center;  
+    
+}
+
+.item{
+    background-color: rgb(8, 72, 83);
+    color: white;  
+}  
+.header{
+    background-color: pink;
+    grid-column: span 12;
+    grid-row: span 1;
+}
+.menu{
+    background-color: rgb(34, 2, 34);
+    grid-column: span 4;
+    grid-row: span 1;
+}
+.content{
+    background-color: rgb(230, 144, 151);
+    grid-column: span 8;
+    grid-row: span 1;
+}
+.footer{
+    grid-column: span 12;
+    grid-row: span 1;
+
+}
