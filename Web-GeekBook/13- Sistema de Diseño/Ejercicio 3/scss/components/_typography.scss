@@ -1,0 +1,34 @@
+@import '../core/variables';
+
+body{
+    font-family: $font-family;
+}  
+  
+
+.txt-sm{
+    font-size: 14px;
+}
+
+​.txt-md {  
+    font-size: 16px;
+}
+.txt-lg {  
+    font-size: 20px;  
+    line-height: 1.6; 
+}
+
+.txt-xl {  
+    font-size: 20px;  
+    line-height: 1.2; 
+}
+
+    
+​.txt-primary { 
+    color: $color-primary; 
+}
+.txt-light { 
+    color: $color-light; 
+}
+.txt-dark { 
+    color: $color-dark;
+}

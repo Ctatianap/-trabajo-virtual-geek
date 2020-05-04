@@ -1,0 +1,49 @@
+.input {
+  display: inline-block;
+  margin: 0px;
+  padding: 9px 16px 7px;
+  cursor: pointer;
+  border: 0;
+  border-bottom: #808e9b solid 1px;
+}
+
+.input:hover {
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
+  opacity: 0.85;
+}
+
+.input:focus {
+  outline: 0;
+  border-bottom: #00ccff solid 1px;
+}
+
+.fa-times {
+  color: #ff3f34;
+}
+
+.fa-check {
+  color: #05c46b;
+}
+
+.fa-ban {
+  color: #808e9b;
+}
+
+.ipt-alert {
+  border-bottom: #ff3f34 solid 1px;
+  margin: 0;
+}
+
+.ipt-success {
+  border-bottom: #05c46b solid 1px;
+  margin: 0;
+}
+
+.ipt-disabled {
+  border-bottom: #808e9b dotted 1px;
+  margin: 0;
+  color: initial;
+  background-color: initial;
+}
+/*# sourceMappingURL=main.css.map */

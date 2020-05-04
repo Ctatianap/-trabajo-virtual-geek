@@ -1,0 +1,46 @@
+.input{
+    display: inline-block;
+    margin: 0px;  
+    padding: 9px 16px 7px;  
+    cursor: pointer;
+    border: 0;
+    border-bottom: $color-alternate solid 1px;  
+        &:hover {    
+        transition: all 150ms linear;
+        opacity: 0.85;  
+        }
+        
+        &:focus {
+            outline:0; 
+            border-bottom: rgb(0, 204, 255) solid 1px; 
+                      
+        }
+}
+.fa-times{
+    color: $color-alert;
+
+}
+.fa-check{
+    color: $color-success;
+}
+.fa-ban{
+    color: $color-alternate;
+}
+.ipt-alert {  
+    border-bottom: $color-alert solid 1px;
+    margin: 0;
+    }
+
+.ipt-success {  
+    border-bottom: $color-success solid 1px;
+    margin: 0;
+}
+
+.ipt-disabled {  
+    border-bottom: $color-alternate dotted 1px ;
+    margin: 0;
+    color: initial;
+    background-color: initial;
+    
+}
+
