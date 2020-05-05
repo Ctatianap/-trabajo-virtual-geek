@@ -69,18 +69,8 @@
                     </select>    
                 </fieldset>
                 <fieldset>
-                    <div name="changeFlag" onchange="changeFlag()" id="changeFlag" onclick="showFlags()">
-                        <ul id="ul">
-                            <li><i class="colombia flag"></i></li>
-                            <li><i class="france flag"></i></li>
-                            <li><i class="myanmar flag"></i></li>
-                            <li><i class="ae flag"></i></li>
-                            <li><i class="egypt flag"></i></li>
-                            <li><i class="brazil flag"></i></li>
-                        </ul>
-                                            
-                    </div>
-                    <input type="tel" id="phone" name="phone" required>
+                    <legend>Telefono</legend>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{5,10}" required>
 
                 </fieldset>
                 <fieldset>
