@@ -1,3 +1,5 @@
+'use strict'
+
 const calculadorModeloCaja = (tipo, ancho, padding, borde)=> tipo ? ancho-(padding+padding+borde+borde) : ancho;
 
 var borderBox= true;

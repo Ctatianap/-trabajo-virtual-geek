@@ -1,3 +1,5 @@
+'use strict'
+
 function calcularIva(numero){
     var iva = numero * 0.21; 
     return iva;

@@ -1,3 +1,5 @@
+'use strict'
+
 function calculadorModeloCaja (tipo, ancho, padding, borde){
 
     if (tipo){
