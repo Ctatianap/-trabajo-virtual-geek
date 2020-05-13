@@ -1,0 +1,20 @@
+@import 'core/_variables';
+@import 'components/_inputs';
+@import 'components/_cards';
+
+
+body{
+    background-color: #070708ed;
+}
+.title{
+    margin-top: 10rem;
+    height: 20vh;
+}
+
+.div{
+    margin-top: 3rem;
+    padding: 10px;
+    background-color:#17a2b8;
+    color: white;
+    text-align: left;
+}

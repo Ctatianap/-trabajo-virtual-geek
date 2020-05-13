@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="scss/main.css">
+    <title>JavaScript Algorithms</title>
+</head>
+<body>
+
+    <div class="container title text-center text-info">
+        <h2 class="mt-5">JavaScript Algorithms and Data Structures Projects</h2>
+        <small><i class="text-light"> On this website you will find the 5 freeCodeCamp challenges related to JavaScript</i></small>
+
+    </div>
+
+  
+    <div class="container text-center">
+        <ul class="nav nav-tabs bg-info " id="myTab" role="tablist">
+
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active text-dark" id="palindrome-tab" data-toggle="tab" href="#palindrome" role="tab" aria-controls="palindrome" aria-selected="true">Palindrome Checker</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link text-dark" id="romanNumber-tab" data-toggle="tab" href="#romanNumber" role="tab" aria-controls="romanNumber" aria-selected="false">Roman Numeral Converter</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link text-dark" id="caesarsCipher-tab" data-toggle="tab" href="#caesarsCipher" role="tab" aria-controls="caesarsCipher" aria-selected="false">Caesars Cipher</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link text-dark" id="telephoneNumber-tab" data-toggle="tab" href="#telephoneNumber" role="tab" aria-controls="telephoneNumber" aria-selected="false">Telephone Number Validator</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link text-dark" id="cashRegister-tab" data-toggle="tab" href="#cashRegister" role="tab" aria-controls="cashRegister" aria-selected="false">Cash Register</a>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="palindrome" role="tabpanel" aria-labelledby="palindrome-tab">
+                <div class="card-body">
+                    <h5 class="card-title text-info mt-2">Palindrome Checker</h5>
+                    <p class="card-text mt-3">"A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing."</p>
+                    <label for="palindrome" class="mt-5">
+                        <small> <i>Check if a word is palindrome here: </i></small>
+                        <input placeholder="Your word" class="text-center" type="text" id="inputPalindrome" name= "palindrome">
+                    </label><br><br>
+                    <a href="#" id="btn-palindrome" class="btn btn-info">Check word</a>
+                    <div id="divPalindromeWords" class="div">
+          
+                    </div>
+                  </div>
+            </div>
+            <div class="tab-pane fade" id="romanNumber" role="tabpanel" aria-labelledby="romanNumber-tab">
+                <div class="card-body">
+                    <h5 class="card-title text-info mt-2"> Roman Numeral Converter </h5>
+                    <p class="card-text mt-3">"Convert the given number into a roman numeral."</p>
+                    <label for="inputRomanNumber" class="mt-5">
+                        <small> <i>Insert a number here: </i></small>
+                        <input placeholder="Your number" class="text-center" type="number" id="inputRomanNumber" name= "inputRomanNumber">
+                    </label><br><br>
+                    <a href="#" id="btn-romanNumber" class="btn btn-info">Transform</a>
+                    <div id="divRomanNumber" class="div">
+          
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="caesarsCipher" role="tabpanel" aria-labelledby="caesarsCipher-tab">
+                <div class="card-body">
+                    <h5 class="card-title text-info mt-2"> Caesar Cipher </h5>
+                    <p class="card-text mt-3">"One of the simplest and most widely known ciphers is a Caesar cipher, also known as a shift cipher."</p>
+                    <label for="inputCaesarCipher" class="mt-5">
+                        <small> <i>Insert a phrase here: </i></small>
+                        <input placeholder="Your phrase" class="text-center" type="text" id="inputCaesarCipher" name= "inputCaesarCipher">
+                    </label><br><br>
+                    <a href="#" id="btn-CaesarCipher" class="btn btn-info">Transform</a>
+                    <div id="divCaesarCipher" class="div">
+          
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="telephoneNumber" role="tabpanel" aria-labelledby="telephoneNumber-tab">
+                <div class="card-body">
+                    <h5 class="card-title text-info mt-2"> Telephone Number Validator </h5>
+                    <p class="card-text mt-3">"The user may fill out the form field any way they choose as long as it has the format of a valid US number. "</p>
+                    <ul  class= "text-left mt-5">
+                        <p>The following are examples of valid formats for US numbers (refer to the tests below for other variants):</p>
+                        <li>555-555-5555</li>
+                        <li>(555)555-5555</li>
+                        <li>(555) 555-5555</li>
+                        <li>555 555 5555</li>
+                        <li>5555555555</li>
+                        <li>1 555 555 5555</li>
+                    </ul>
+                    <label for="inputCaesarCipher" class="mt-5">
+                        <small> <i>Insert a telephone number here: </i></small>
+                      
+                        <input placeholder="Your telephone number " class="text-center" type="text" id="inputTelephoneNumber" name= "inputTelephoneNumber">
+                    </label><br><br>
+                    <a href="#" id="btn-TelephoneNumber" class="btn btn-info">Validate</a>
+                    <div id="divTelephoneNumber" class="div">
+          
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="cashRegister" role="tabpanel" aria-labelledby="cashRegister-tab">
+                <div class="card-body">
+                    <h5 class="card-title text-info mt-2"> Cash Register </h5>
+                    <p class="card-text mt-3">"Cash Register that accepts purchase price as the first argument (price), payment as the second argument (cash), and cash-in-drawer (cid) as the third argument. "</p>
+                    
+                    <p>you can choose between these options to try:</p>
+                    <div class="input-group">
+                        <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                            <option selected>Choose...</option>
+                            <option value="1"> Pay $19.5 whit $20</option>
+                            <option value="2"> Pay $3.26 whit $100</option>
+                            <option value="3"> Pay $7 whit $10 </option>
+                            <option value="4"> Pay $18 whit $20</option>
+                            <option value="5"> Pay $20 whit $50</option>
+                        </select>
+                        <div class="input-group-append">
+                          <button id="btn-CashRegister" class="btn btn-outline-secondary" type="button">Try</button>
+                        </div>
+                      </div>
+                    <div id="divCashRegister" class="div">
+          
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script type="module" src="js/script.js" type="text/javascript"></script>
+    
+    
+    
+</body>
+</html>
