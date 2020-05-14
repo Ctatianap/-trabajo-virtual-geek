@@ -1,0 +1,10 @@
+console.dir: Despliega una lista interactiva de las propiedades del objeto JavaScript 
+	     especificado. El resultado es presentado como un listado jerárquico con 
+	     triángulos de despliegue que te dejan ver los contenidos de los objetos hijos.
+
+
+value: me arroja el valor que puse en la caja de texto
+nodeName: me dice el tipo de nodo que estoy usando en este caso input
+required: para este caso es falso ya que no le puse ese requisio a mi campo de texto, 
+	  lo que significa es que es no es un campo requerido para continuar en el 
+	  formulario...
