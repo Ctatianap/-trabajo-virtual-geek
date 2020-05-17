@@ -1,0 +1,22 @@
+.ventana{
+    width: 30vw;
+    height: 20vh;
+    position: fixed;
+    left: 35vw;
+    bottom: 50vh;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(7, 133, 155);
+    font-size: 1em;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    
+}
+.hidden{
+    visibility: hidden
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
