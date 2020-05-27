@@ -1,0 +1,37 @@
+.App {
+  height: 100vh;
+  font-size: 1.5rem;
+}
+
+.footer{
+  text-align: center;
+  position: relative;
+  font-size: 14px;
+  top: 22vh;
+}
+
+#quote-box{
+  position: relative;
+  top: 20vh;
+  width: 500px;
+  background-color: white;
+  margin: auto;
+  border-radius: 5px;
+  padding: 2%;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.4)
+
+}
+ #tweet-quote{
+  margin-right: 2%; 
+  float: left;
+}
+
+#tumblr{
+  margin-bottom: 5px;
+}
+#new-quote{
+  float: right;
+}
+
+
+
