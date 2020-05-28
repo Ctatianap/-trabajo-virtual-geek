@@ -1,0 +1,51 @@
+.App{
+  
+  min-height: 100vh;
+  background-color: #8E9EBF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.textarea, .textpreview{
+  box-shadow: 1px 1px 10px 2px #5377A6;
+  width: 99%;
+  padding: 5px;
+  font-size: 12px;
+}
+
+#editor-header, #previewer-header{
+  margin-top: 10vh;
+  background-color: #024873;
+  border: solid 1px black;
+  min-height: 20px;
+}
+#editor-header{
+  width: 50vw;
+}
+#editor{
+  min-height: 200px;
+  width: 50vw;
+}
+.icons{
+  margin-right: 10px;
+}
+.ampliarVentana{
+  float: right;
+  margin: 3px;
+}
+
+
+#previewer-header{
+  width: 80vw;
+}
+#preview{
+  background-color: white;
+  color: #024873;
+  border: solid 1px black;
+  min-height: 200px;
+  width: 80vw;
+}
+
