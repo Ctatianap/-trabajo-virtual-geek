@@ -16,4 +16,10 @@ Technical Documentation Page: https://ctatianap.github.io/Desarrolladora-geek/Fr
 
 Personal Portafolio Page: https://ctatianap.github.io/Desarrolladora-geek/FreeCodeCamp/Retos/Personal%20Portafolio%20Webpage/
 
+JavaScript Algorithms DataStruc:  https://ctatianap.github.io/Desarrolladora-geek/FreeCodeCamp/Retos/JavaScript%20Algorithms/
+
+Random Quote Machine: https://quizzical-nobel-ed3826.netlify.app/
+
+Markdown Previewer: https://laughing-thompson-1bdc00.netlify.app/
+
 
