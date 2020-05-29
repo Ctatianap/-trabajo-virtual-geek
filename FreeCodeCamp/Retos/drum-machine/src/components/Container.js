@@ -15,7 +15,7 @@ const Container = ({
 }) => {
   const playSound = (character) => {
     if (power === "On") {
-      const audio = new Audio(SoundMocks[bank][character.toLowerCase()]);
+      const audio = document.getElementById(character);
       audio.volume = volumen;
       audio.play();
       changeText(character);
@@ -24,7 +24,13 @@ const Container = ({
 
   return (
     <div id="drum-machine" className="container row">
-      <Keyboard playSound={playSound} />
+      <Keyboard
+        playSound={playSound}
+        bank={bank}
+        text={text}
+        changeText={changeText}
+      />
+
       <Configuration
         bank={bank}
         changeBank={changeBank}
