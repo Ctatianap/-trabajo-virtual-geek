@@ -1,0 +1,78 @@
+.App {
+  background-color: #0a3b59;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#drum-machine {
+  max-width: 50vw;
+  background-color: #f2bf80;
+  border: solid 5px #03a6a6;
+  padding: 2vw;
+}
+
+.drum-pad {
+  text-align: center;
+  padding-top: 2vh;
+  background-color: #f28b66;
+  border-radius: 5px;
+  color: #0a3b59;
+  box-shadow: black 3px 3px 5px;
+  height: 9vh;
+}
+
+.drum-pad:hover {
+  cursor: pointer;
+  background-color: #f24b4b;
+  border-radius: 5px;
+  color: #0a3b59;
+  height: 9vh;
+  box-shadow: none;
+}
+
+.selector {
+  background-color: #0a3b59;
+  width: 6vw;
+  height: 3vh;
+  margin: auto;
+  margin-top: 2rem;
+}
+.selector:hover {
+  cursor: pointer;
+}
+
+.inner {
+  background-color: #f24b4b;
+  width: 2.5vw;
+  height: 2vh;
+  margin: 4px;
+  float: left;
+}
+.inner2 {
+  background-color: #f24b4b;
+  width: 2.5vw;
+  height: 2vh;
+  margin: 4px;
+  float: right;
+}
+#changeText {
+  background-color: #03a6a6;
+  width: 8vw;
+  color: #0a3b59;
+  margin: auto;
+  margin-top: 1vh;
+  font-size: 20px;
+}
+#input {
+  margin: auto;
+}
+p {
+  color: #0a3b59;
+  font-size: 20px;
+  margin-bottom: 1px;
+}
