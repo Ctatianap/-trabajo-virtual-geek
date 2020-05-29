@@ -23,7 +23,7 @@ const Container = ({
   };
 
   return (
-    <div id="drum-machine" className="container row">
+    <div id="drum-machine" className="container row col-lg-7 col-9">
       <Keyboard
         playSound={playSound}
         bank={bank}

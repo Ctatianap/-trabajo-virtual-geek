@@ -10,7 +10,6 @@
 }
 
 #drum-machine {
-  max-width: 50vw;
   background-color: #f2bf80;
   border: solid 5px #03a6a6;
   padding: 2vw;
@@ -37,7 +36,7 @@
 
 .selector {
   background-color: #0a3b59;
-  width: 6vw;
+  width: 10vw;
   height: 3vh;
   margin: auto;
   margin-top: 2rem;
@@ -48,7 +47,7 @@
 
 .inner {
   background-color: #f24b4b;
-  width: 2.5vw;
+  width: 4vw;
   height: 2vh;
   margin: 4px;
   float: left;
@@ -62,17 +61,22 @@
 }
 #changeText {
   background-color: #03a6a6;
-  width: 8vw;
+
   color: #0a3b59;
   margin: auto;
   margin-top: 1vh;
   font-size: 20px;
 }
 #input {
-  margin: auto;
+  position: relative;
+  left: 15%;
 }
 p {
   color: #0a3b59;
   font-size: 20px;
   margin-bottom: 1px;
+}
+
+.row {
+  margin: auto;
 }

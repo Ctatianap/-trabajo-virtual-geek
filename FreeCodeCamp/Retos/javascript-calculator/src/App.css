@@ -1,0 +1,91 @@
+.App {
+  background-color: rgb(207, 141, 172);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-Container{
+  background-color:#191a1b;
+  width: 370px;
+  height: 500px; 
+}
+
+/* grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 80px 80px 80px 80px 80px 80px;
+  gap: 3px 3px;
+  width: 99%;
+  height: 99%;
+  margin: auto;
+  background-color: #282c34;
+  grid-template-areas: "board board board board" "Ac Ac -divider -multiplier" "seven eight nine -less" "four five six plus" "one two three equal" "zero zero point equal";
+}
+
+.board {grid-area: board; background-color:#282c34;}
+
+.Ac { grid-area: Ac;}
+
+.seven { grid-area: seven; }
+
+.eight { grid-area: eight; }
+
+.nine { grid-area: nine; }
+
+.four { grid-area: four; }
+
+.five { grid-area: five; }
+
+.six { grid-area: six; }
+
+.one { grid-area: one; }
+
+.two { grid-area: two; }
+
+.three { grid-area: three; }
+
+.zero { grid-area: zero; }
+
+.equal { grid-area: equal; }
+
+.plus { grid-area: plus; }
+
+.point { grid-area: point; }
+
+.-less { grid-area: -less; }
+
+.-multiplier { grid-area: -multiplier; }
+
+.pink{
+  color:  #C1D9D9;
+  background-color: #BF5A89;
+  text-align: center;
+}
+.numbers{
+  color: #BF5A89;
+  background-color: #C1D9D9;
+  text-align: center;
+}
+.operators{
+  color:  #282c34;
+  background-color: #F0F0F2;
+  text-align: center;
+}
+
+.board{
+  text-align: right;
+  padding-right: 5px;
+  font-family: digital;
+}
+
+.footer{
+  text-align: center;
+  font-size: 15px;
+  color: #191a1b;
+  margin-top: 20px;
+}
