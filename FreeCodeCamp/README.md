@@ -22,6 +22,8 @@ Random Quote Machine: https://quizzical-nobel-ed3826.netlify.app/
 
 Markdown Previewer: https://laughing-thompson-1bdc00.netlify.app/
 
-Drum Machine: https://youthful-einstein-2b502c.netlify.app/
+Drum Machine: https://stupefied-thompson-a28230.netlify.app
+
+Pomodoro Clock: https://admiring-feynman-00d858.netlify.app/
 
 
